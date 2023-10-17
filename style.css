@@ -222,7 +222,7 @@ h1 {
   width: 100%;
   cursor: pointer;
   height: 0.75rem;
-  background-color: var(--lt-violet);
+  background-color: rgb(49, 65, 210);
   border-radius: 1rem;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -250,7 +250,7 @@ h1 {
 }
 
 .slider::-webkit-slider-thumb:hover {
-  outline: 2px solid rgb(49, 65, 210);
+  outline: 2px solid rgb(101, 115, 241);
   background-color: var(--dk-violet);
   /* box-shadow: 0px 0px 25px 5px rgba(185, 183, 168, 0.8); */
 }
@@ -270,7 +270,7 @@ h1 {
 
 .slider::-moz-range-thumb:hover {
   position: relative;
-  outline: 2px solid rgb(49, 65, 210);
+  outline: 1px solid rgb(199, 202, 231);
   background: rgb(49, 65, 210);
   /* box-shadow: 0px 0px 25px 5px rgba(183, 181, 173, 0.8); */
 }
